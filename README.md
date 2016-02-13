@@ -5,6 +5,7 @@ cargo run
 ```
 
 For optimal performance:
+
 1) Build the executable
 ```
 cargo build --release

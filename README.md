@@ -4,7 +4,7 @@ Run on your local:
 cargo run
 ```
 
-For optimul performace:
+For optimal performace:
 1) Build the executable
 ```
 cargo build --release
@@ -14,7 +14,9 @@ cargo build --release
 ./target/release/web_server_is_prime 
 ```
 
-Once the exetable is running you can use it with:
+Some examples of using the executabe:
+
+Python `requests`
 ```
 In [11]: import requests
 
@@ -24,7 +26,7 @@ In [13]: temp.content
 Out[13]: 'true'
 ```
 
-or 
+Linux shell: 
 ```
 curl -X POST -d "101" http://localhost:8088/is_prime
 ```

@@ -4,7 +4,7 @@ Run on your local:
 cargo run
 ```
 
-For optimal performace:
+For optimal performance:
 1) Build the executable
 ```
 cargo build --release
@@ -14,7 +14,7 @@ cargo build --release
 ./target/release/web_server_is_prime 
 ```
 
-Some examples of using the executabe:
+Some examples of using the executable:
 
 Python `requests`
 ```

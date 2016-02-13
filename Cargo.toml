@@ -1,0 +1,9 @@
+[package]
+name = "web_server_is_prime"
+version = "0.1.0"
+authors = ["Kirill <Akavall@gmail.com>"]
+
+[dependencies]
+iron = "*"
+router = "*"
+rustc-serialize = "0.3"

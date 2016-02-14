@@ -19,17 +19,23 @@ Some examples of using the executable:
 
 Python `requests`
 ```
-In [11]: import requests
+In [1]: import requests
 
-In [12]: temp = requests.post("http://localhost:8088/is_prime", "101")
+In [2]: temp = requests.get("http://localhost:8088/is_prime", params="100")
 
-In [13]: temp.content
-Out[13]: 'true'
+In [3]: temp.content
+Out[3]: 'false'
+
 ```
 
 Linux shell: 
 ```
-curl -X POST -d "101" http://localhost:8088/is_prime
+curl -X GET http://localhost:8088/is_prime?101
+```
+
+In the browser:
+```
+http://localhost:8088/is_prime?101
 ```
 
 

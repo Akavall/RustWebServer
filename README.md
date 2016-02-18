@@ -1,4 +1,4 @@
-# RustWebServer
+# RustWebService
 Run on your local:
 ```
 cargo run
@@ -12,7 +12,7 @@ cargo build --release
 ```
 2) Run the executable
 ```
-./target/release/web_server_is_prime 
+./target/release/my_executable
 ```
 
 Some examples of using the executable:
